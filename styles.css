@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: top;
+  justify-content: top;
+  height: 100vh;
+}
+
+header {
+  background-color: hotpink;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  margin: 0; /* Add this line to remove margin from the header */
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+button {
+  margin-bottom: 15px;
+  padding: 15px 60px;
+  font-size: 16px;
+  background-color: pink;
+  color: gray;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: purple;
+  color: white;
+}
